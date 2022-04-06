@@ -41,3 +41,10 @@ body {
 .letra3 {
   color: #CF3031;
 }
+
+@media (min-width: 1025px) {
+  .sobre {
+    display: flex;
+    justify-content: space-around;
+  }
+}
