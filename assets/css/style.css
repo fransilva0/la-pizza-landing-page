@@ -42,9 +42,53 @@ body {
   color: #CF3031;
 }
 
+.sobre {
+  padding: 1rem;
+  align-items: center;
+  background: #FCFCFC;
+}
+
+.sobre-imagem {
+  text-align: center;
+}
+
+.sobre-imagem img {
+  width: 15rem;
+}
+
+.sobre-textos h2 {
+  margin-bottom: 2rem;
+}
+
+.sobre-textos p {
+  text-align: left;
+}
+
+.sobre-textos a {
+  background: #FFA200;
+  color: #000;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+}
+
+.sobre-textos a:hover {
+  border: 2px solid #FFA200;
+  color: #FFA200;
+  background: transparent;
+}
+
+
 @media (min-width: 1025px) {
+  .cabecalho {
+    height: 30rem;
+  }
+
   .sobre {
     display: flex;
     justify-content: space-around;
+  }
+
+  .sobre-textos p {
+    width: 30rem;
   }
 }
