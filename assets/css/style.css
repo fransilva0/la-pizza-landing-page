@@ -88,7 +88,7 @@ body {
   background: #FCFCFC;
 }
 
-.container-depoimentos, .container-menu {
+.container-depoimentos, .container-menu, .container-contato {
   padding: 2rem;
 }
 
@@ -110,7 +110,7 @@ body {
   color: #CF3031;
 }
 
-.container-menu {
+.container-depoimentos {
   background-color: #FCFCFC ;
 }
 
@@ -136,6 +136,25 @@ body {
   font-size: 1.5rem;
 }
 
+.container-midias-sociais {
+  text-align: center;
+}
+
+.icone-midia-social {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border-radius: 5rem;
+  background: #fb9f0099;
+  border: 2px solid #fb9f0099;
+  color: #FCFCFC;
+}
+
+.icone-midia-social:hover {
+  background: transparent;
+  color: #fb9f0099;
+}
+
+
 .rodape {
   padding: 1rem;
   font-size: 0.8rem;
@@ -159,7 +178,7 @@ body {
     font-size: 4rem;
   }
 
-  .sobre, .container-depoimentos, .container-menu {
+  .sobre, .container-depoimentos, .container-menu, .container-contato, .rodape {
     display: flex;
     justify-content: space-around;
   }
@@ -170,5 +189,10 @@ body {
 
   .depoimento {
     width: 20rem;
+  }
+
+  .rodape {
+    align-items: center;
+    font-size: 1rem;
   }
 }
