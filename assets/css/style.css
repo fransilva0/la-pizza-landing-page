@@ -54,6 +54,7 @@ body {
 
 .sobre-imagem img {
   width: 15rem;
+  border-radius: 1rem;
 }
 
 .sobre-textos h2 {
@@ -77,18 +78,50 @@ body {
   background: transparent;
 }
 
+.titulo-secao {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.container-depoimentos {
+  padding: 2rem;
+}
+
+.depoimento {
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.depoimento img {
+  margin-top: 2rem;
+  width: 5rem;
+  border-radius: 5rem;
+}
+
+.nome-pessoa-depoimento {
+  font-size: 0.6rem;
+  color: #CF3031;
+}
+
 
 @media (min-width: 1025px) {
   .cabecalho {
     height: 30rem;
   }
 
-  .sobre {
+  .sobre, .container-depoimentos {
     display: flex;
     justify-content: space-around;
   }
 
   .sobre-textos p {
     width: 30rem;
+  }
+
+  .depoimento {
+    width: 20rem;
   }
 }
