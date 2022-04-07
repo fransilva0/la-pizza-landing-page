@@ -65,26 +65,30 @@ body {
   text-align: left;
 }
 
-.sobre-textos a {
+.botao {
   background: #FFA200;
   color: #000;
   padding: 0.5rem 2rem;
   border-radius: 2rem;
 }
 
-.sobre-textos a:hover {
+.botao:hover {
   border: 2px solid #FFA200;
   color: #FFA200;
   background: transparent;
 }
 
-.titulo-secao {
+.titulo-secao, .titulo-secao2 {
   text-align: center;
   font-size: 1.5rem;
   padding: 1rem;
 }
 
-.container-depoimentos {
+.titulo-secao2 {
+  background: #FCFCFC;
+}
+
+.container-depoimentos, .container-menu {
   padding: 2rem;
 }
 
@@ -95,7 +99,7 @@ body {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
-.depoimento img {
+.depoimento img{
   margin-top: 2rem;
   width: 5rem;
   border-radius: 5rem;
@@ -106,13 +110,42 @@ body {
   color: #CF3031;
 }
 
+.container-menu {
+  background-color: #FCFCFC ;
+}
+
+.card-pizza {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.card-pizza img {
+  width: 5rem;
+  border-radius: 5rem;
+}
+
+.texto-pequeno {
+  font-size: 0.6rem;
+  margin: 1.5rem;
+}
+
+.destaque-preco {
+  font-size: 1.5rem;
+}
 
 @media (min-width: 1025px) {
   .cabecalho {
     height: 30rem;
   }
 
-  .sobre, .container-depoimentos {
+  .titulo {
+    font-size: 4rem;
+  }
+
+  .sobre, .container-depoimentos, .container-menu {
     display: flex;
     justify-content: space-around;
   }
