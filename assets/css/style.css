@@ -136,6 +136,20 @@ body {
   font-size: 1.5rem;
 }
 
+.rodape {
+  padding: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.rodape a {
+  color:#FFA200;
+}
+
+.rodape a:hover {
+  color:#CF3031;
+}
+
 @media (min-width: 1025px) {
   .cabecalho {
     height: 30rem;
