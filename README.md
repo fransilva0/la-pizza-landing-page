@@ -33,7 +33,7 @@
  
 O Projeto da construção da Landing Page veio do desafio 12 da Codelândia onde aproveitei o nome da pizzaria fictícia e a ideia da Landing Page, porém realizei mudanças na minha página como a adição da seção de depoimentos e a barra de links sociais.
 
-Utilizei a biblioteca ScrollReveal para adicionar a animação de aparecimento de elementos ao dar scroll (rolagem) na página. Também trabalhei na responsividade da página para o desktop. 
+Utilizei a biblioteca ScrollReveal para adicionar a animação de aparecimento de elementos ao dar scroll (rolagem) na página. Também trabalhei na responsividade da página para o desktop. O site do Unsplash foi usado para a pesquisa por imagens e o Iconify para os ícones de redes sociais. 
 
  
 &#xa0;
