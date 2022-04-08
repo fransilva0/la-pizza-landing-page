@@ -3,7 +3,7 @@
  
 &#xa0;
  
-<a href='linkdosite'>Demo</a>
+<a href='https://fransilva0.github.io/la-pizza-landing-page/'>Demo</a>
  
 </div>
  
@@ -36,17 +36,17 @@ O Projeto da construção da Landing Page veio do desafio 12 da Codelândia onde
 Utilizei a biblioteca ScrollReveal para adicionar a animação de aparecimento de elementos ao dar scroll (rolagem) na página. Também trabalhei na responsividade da página para o desktop. 
 
  
+&#xa0;
+
+<img src="./.github/pagina-desktop.png" />
+
+&#xa0;
+
 ## :memo: Licença ##
  
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
  
  
 Feito com :heart: por <a href='https://github.com/fransilva0' target='_blank'>Francileudo Oliveira</a>
- 
-&#xa0;
-
-<img src="./.github/pagina-desktop.png" />
-
-&#xa0;
  
 <a href='#top'>Voltar para o topo</a>
