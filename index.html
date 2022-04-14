@@ -139,6 +139,41 @@
           <p class="nome-pessoa-depoimento">Nome da Pessoa</p>
         </div>
       </section>
+      <!-- SEÇÃO CONTATO POR E-MAIL -->
+      <h2 class="titulo-secao">Que tal nos mandar um e-mail?</h2>
+      <section class="container-contato">
+        <form
+          action="https://formsubmit.co/email@gmail.com"
+          method="POST"
+          class="form"
+        >
+          <label>
+            <input type="text" name="Nome" placeholder="Seu nome" required />
+          </label>
+
+          <label>
+            <input
+              type="email"
+              name="Email"
+              placeholder="seuemail@email.com"
+              required
+            />
+          </label>
+
+          <label>
+            <textarea
+              name="Mensagem"
+              placeholder="Deixe sua mensagem"
+              required
+            ></textarea>
+          </label>
+
+          <input type="hidden" name="_captcha" value="false" />
+
+          <button type="submit" class="email-button">Enviar</button>
+        </form>
+        <span class="icone-email iconify" data-icon="carbon:email-new"></span>
+      </section>
       <!-- RODAPÉ -->
       <footer class="rodape">
         <p>
